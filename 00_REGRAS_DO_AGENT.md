@@ -139,3 +139,12 @@ Gere um **UPDATE DO PROJETO** completo com:
 - `Mostrar conflito de canon`
 - `Mostrar ledger`
 - `Mostrar índice de canon`
+
+
+## Leitura livre da base externa
+
+A partir desta atualização, chamadas `readFile` não exigem autorização prévia do usuário.
+
+Sempre que o Guardião de Sessão precisar buscar informação canônica, estado de campanha, regras, ledger, poderes, segredos do mestre, bestiário, logs ou checkpoints, ele pode consultar os arquivos `.md` permitidos diretamente por `readFile`.
+
+Essa permissão se aplica apenas à leitura. Alterações com `updateFile` continuam exigindo autorização explícita do usuário, conforme a regra de alteração controlada de arquivos.
