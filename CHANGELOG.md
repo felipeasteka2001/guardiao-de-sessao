@@ -121,3 +121,36 @@ Remover CHANGELOG.md ou substituir por uma versão anterior, se necessário.
 
 Status:
 Concluído
+
+
+
+---
+
+### 2026-06-05 — Validação de leitura e atualização do changelog
+
+Tipo: teste
+
+Operador: usuário
+
+Action usada: readFile + updateFile
+
+Arquivos afetados:
+- CHANGELOG.md
+
+Motivo:
+Validar a capacidade de leitura e escrita controlada do arquivo de changelog.
+
+Alteração realizada:
+Adicionada uma entrada de teste registrando a validação bem-sucedida da leitura e atualização do CHANGELOG.md.
+
+Risco:
+Baixo
+
+Impacto:
+Confirma o funcionamento do fluxo de auditoria e atualização documental.
+
+Reversão:
+Remover esta entrada de teste caso ela não seja mais necessária.
+
+Status:
+Concluído
