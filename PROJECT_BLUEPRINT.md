@@ -342,3 +342,50 @@ Actions administrativas devem registrar:
 - resultado retornado pelo GitHub
 
 Nunca apagar conteúdo sem autorização explícita.
+
+
+
+## Separação de Instruções Narrativas
+
+As instruções centrais do Agent não devem conter tom, tema ou canon específico de uma campanha.
+
+A Engine deve separar:
+
+- regras globais do Agent
+- regras do sistema narrativo
+- perfil narrativo da campanha
+- estado canônico da campanha
+
+As Instructions centrais do Custom GPT devem definir o comportamento geral do Agent, regras de segurança, uso de Actions, persistência, checkpoints e prioridade de fontes.
+
+O tom, tema, ritmo, atmosfera, limites narrativos e estilo de narração devem ser definidos por campanha em um arquivo próprio:
+
+campaigns/{campaign_id}/00_NARRATIVE_PROFILE.md
+
+O arquivo CAMPAIGN_CONFIG.md deve definir configuração técnica da campanha, como nome, status, sistema usado e paths principais.
+
+O sistema usado pela campanha deve definir regras gerais em:
+
+systems/{system_id}/SYSTEM_RULES.md
+
+Durante uma narração, o Agent deve carregar e respeitar, nesta ordem:
+
+1. CAMPAIGN_CONFIG.md
+2. 00_NARRATIVE_PROFILE.md
+3. SYSTEM_RULES.md
+4. arquivos canônicos da campanha
+5. checkpoints relevantes
+
+A campanha define o sabor narrativo.
+O sistema define a lógica de funcionamento.
+A Engine define persistência, segurança, estrutura e comportamento técnico.
+
+Exemplo:
+
+Dante deve ter seu próprio 00_NARRATIVE_PROFILE.md com tom frio, sombrio, calculado e persistente.
+
+Uma campanha de Vampiro pode ter outro perfil, como noir urbano, político, predatório e claustrofóbico.
+
+Uma campanha de D&D pode ter outro perfil, como fantasia épica, exploração e aventura.
+
+Nenhum tom específico de campanha deve ser tratado como regra global da Engine.
