@@ -154,3 +154,36 @@ Remover esta entrada de teste caso ela não seja mais necessária.
 
 Status:
 Concluído
+
+
+---
+
+### 2026-06-05 — Decisão sobre perfis narrativos por campanha
+
+Tipo: arquitetura
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- PROJECT_BLUEPRINT.md
+- CHANGELOG.md
+
+Motivo:
+Evitar que o tom e o canon da campanha Dante contaminem a Engine global e permitir múltiplas campanhas com estilos narrativos diferentes.
+
+Alteração realizada:
+Registrada a regra de que tom, tema, ritmo, atmosfera e estilo de narração devem ficar em campaigns/{campaign_id}/00_NARRATIVE_PROFILE.md, enquanto regras do sistema ficam em systems/{system_id}/SYSTEM_RULES.md.
+
+Risco:
+Baixo
+
+Impacto:
+A Engine passa a suportar campanhas com identidades narrativas diferentes sem misturar regras globais, sistema e canon específico.
+
+Reversão:
+Remover ou revisar a seção “Separação de Instruções Narrativas” no PROJECT_BLUEPRINT.md.
+
+Status:
+Concluído
