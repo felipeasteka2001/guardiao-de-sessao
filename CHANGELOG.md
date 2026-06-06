@@ -220,3 +220,11 @@ Restaurar a lógica anterior de validação de path caso seja identificado compo
 
 Status:
 Concluído
+
+## 2026-06-05 - Teste da Action moveFile
+
+- Motivo: Validar a Action `moveFile` com um arquivo não canônico.
+- Arquivo afetado: `TEST_AGENT_WRITE.md` → `tests/TEST_AGENT_WRITE.md`
+- Impacto: Confirmação operacional da capacidade de movimentação de arquivos no repositório.
+- Risco: Baixo. Arquivo de teste não canônico.
+- Reversão: Mover `tests/TEST_AGENT_WRITE.md` de volta para `TEST_AGENT_WRITE.md` usando `moveFile`.
