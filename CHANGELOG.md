@@ -749,3 +749,39 @@ Remover ou revisar o protocolo conforme futuras versões da Engine.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Correção do protocolo de criação de ficha Vampiro
+
+Tipo: sistema | correção de fluxo
+
+Operador: usuário / Guardião Dev
+
+Motivo:
+O playtest identificou que o fluxo estava solicitando Geração antes da etapa de Antecedentes e misturando construção narrativa com construção mecânica.
+
+Correção canônica adotada:
+- Geração não deve ser perguntada durante o conceito do personagem.
+- Geração deve permanecer no valor padrão da crônica até a distribuição dos Antecedentes.
+- Alterações de geração devem ocorrer através do Antecedente apropriado ou da regra utilizada pela mesa.
+- O fluxo de criação deve separar conceito narrativo e construção mecânica.
+
+Novo fluxo recomendado:
+1. Conceito
+2. Natureza
+3. Comportamento
+4. Escolha do método de criação da ficha
+5. Atributos
+6. Habilidades
+7. Disciplinas
+8. Antecedentes
+9. Valores derivados (incluindo geração quando aplicável)
+10. Revisão
+11. Registro canônico
+12. Início da narrativa
+
+Impacto:
+Evita perguntas prematuras sobre geração e melhora a compatibilidade do protocolo com o processo tradicional de criação de personagens em Vampiro.
+
+Status:
+Concluído
