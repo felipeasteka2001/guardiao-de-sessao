@@ -360,3 +360,34 @@ Remover os arquivos criados ou restaurar versão anterior da estrutura da campan
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Criação do SYSTEM_RULES.md do sistema Guardião
+
+Tipo: sistema | estrutura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- systems/guardiao/SYSTEM_RULES.md
+- CHANGELOG.md
+
+Motivo:
+Estabelecer as regras gerais do sistema Guardião e completar a estrutura mínima prevista pelo Blueprint para separação entre Engine, Sistema e Campanha.
+
+Alteração realizada:
+Criado o arquivo systems/guardiao/SYSTEM_RULES.md contendo princípios de persistência, canon, checkpoints, progressão e separação de responsabilidades.
+
+Risco:
+Baixo
+
+Impacto:
+Permite que campanhas utilizem um conjunto formal de regras sistêmicas independente de tom narrativo ou canon específico.
+
+Reversão:
+Remover ou substituir o arquivo por versão anterior.
+
+Status:
+Concluído
