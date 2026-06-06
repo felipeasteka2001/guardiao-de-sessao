@@ -428,3 +428,34 @@ Mover os arquivos de volta para a raiz utilizando moveFile.
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Migração dos checkpoints da campanha Dante
+
+Tipo: migração | campanha
+
+Operador: usuário / Guardião Dev
+
+Action usada: moveFile
+
+Arquivos afetados:
+- checkpoints/S01-C003.md -> checkpoints/dante/S01-C003.md
+- checkpoints/S01-CAUTO-001.md -> checkpoints/dante/S01-CAUTO-001.md
+
+Motivo:
+Concluir a separação estrutural entre campanha e histórico de checkpoints conforme definido no Blueprint consolidado.
+
+Alteração realizada:
+Os checkpoints existentes da campanha Dante foram migrados para checkpoints/dante/.
+
+Risco:
+Baixo
+
+Impacto:
+A estrutura de checkpoints passa a seguir o modelo multi-campanha da Engine, mantendo histórico separado dos arquivos canônicos.
+
+Reversão:
+Mover os checkpoints de volta para a raiz da pasta checkpoints utilizando moveFile.
+
+Status:
+Concluído
