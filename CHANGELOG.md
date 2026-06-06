@@ -683,3 +683,38 @@ Remover ou substituir os templates por versões revisadas.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Criação dos templates opcionais de campanha
+
+Tipo: template | campanha
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/campaign_template/02_PERSONAGEM_E_PODERES.md
+- templates/campaign_template/04_SESSION_LOGS_DETALHADOS.md
+- templates/campaign_template/06_SEGREDOS_DO_MESTRE.md
+- templates/campaign_template/07_BESTIARIO_E_DUNGEONS.md
+- templates/campaign_template/08_ACTIONS_E_CHECKPOINTS.md
+- CHANGELOG.md
+
+Motivo:
+Completar os módulos opcionais previstos na arquitetura oficial do campaign_template.
+
+Alteração realizada:
+Criados templates reutilizáveis para personagens e poderes, logs detalhados, segredos do mestre, bestiário e dungeons, além de actions e checkpoints.
+
+Risco:
+Baixo
+
+Impacto:
+A estrutura de campanha agora cobre tanto a base mínima obrigatória quanto os módulos opcionais recomendados pela Engine.
+
+Reversão:
+Remover ou substituir os templates por versões revisadas.
+
+Status:
+Concluído
