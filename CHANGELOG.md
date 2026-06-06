@@ -523,3 +523,35 @@ Remover os arquivos de template ou substituí-los por versões mais completas.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Criação dos primeiros templates funcionais de campanha
+
+Tipo: template | estrutura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/campaign_template/CAMPAIGN_CONFIG.md
+- templates/campaign_template/00_NARRATIVE_PROFILE.md
+- CHANGELOG.md
+
+Motivo:
+Transformar a Fase 4 de uma estrutura conceitual para uma base funcional reutilizável.
+
+Alteração realizada:
+Criados modelos padronizados para configuração técnica da campanha e perfil narrativo, incluindo placeholders para reutilização em futuras campanhas.
+
+Risco:
+Baixo
+
+Impacto:
+Novas campanhas passam a possuir um ponto de partida consistente e alinhado à arquitetura definida no Blueprint.
+
+Reversão:
+Remover ou substituir os templates por versões revisadas.
+
+Status:
+Concluído
