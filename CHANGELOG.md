@@ -228,3 +228,10 @@ Concluído
 - Impacto: Confirmação operacional da capacidade de movimentação de arquivos no repositório.
 - Risco: Baixo. Arquivo de teste não canônico.
 - Reversão: Mover `tests/TEST_AGENT_WRITE.md` de volta para `TEST_AGENT_WRITE.md` usando `moveFile`.
+
+## 2026-06-05 - Teste da Action renameFile
+- Motivo: Validar a Action renameFile em arquivo não canônico.
+- Arquivo afetado: tests/TEST_AGENT_WRITE.md -> tests/TEST_AGENT_WRITE_RENAMED.md
+- Impacto: Apenas renomeação de arquivo de teste.
+- Risco: Baixo.
+- Reversão: Renomear novamente para o nome original.
