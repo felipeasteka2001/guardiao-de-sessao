@@ -459,3 +459,34 @@ Mover os checkpoints de volta para a raiz da pasta checkpoints utilizando moveFi
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Alinhamento do Blueprint com o estado real da Engine
+
+Tipo: documentação | arquitetura
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- PROJECT_BLUEPRINT.md
+- CHANGELOG.md
+
+Motivo:
+Eliminar inconsistências entre o roadmap documentado e o estado real do repositório após a implementação inicial das fases Multi-Campanha e Multi-Sistema.
+
+Alteração realizada:
+Atualizados os status das fases do roadmap. Registrado oficialmente que a campanha Dante já está estruturada em campaigns/dante/, que os checkpoints foram migrados para checkpoints/dante/ e que o sistema guardiao já possui SYSTEM_RULES.md funcional. A fase Templates foi definida como próxima etapa oficial.
+
+Risco:
+Baixo
+
+Impacto:
+O Blueprint passa a refletir corretamente o estado atual da Engine e volta a ser uma fonte confiável de verdade para planejamento.
+
+Reversão:
+Restaurar versão anterior do PROJECT_BLUEPRINT.md através do histórico Git.
+
+Status:
+Concluído
