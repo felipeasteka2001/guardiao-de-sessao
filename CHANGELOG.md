@@ -297,3 +297,34 @@ Remover a seção de consolidação e revisar manualmente o Blueprint.
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Consolidação completa do PROJECT_BLUEPRINT.md
+
+Tipo: documentação | arquitetura
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- PROJECT_BLUEPRINT.md
+- CHANGELOG.md
+
+Motivo:
+Remover seções obsoletas, redundâncias e referências desatualizadas sobre Actions administrativas, mantendo o Blueprint como fonte única de verdade.
+
+Alteração realizada:
+Substituição completa do PROJECT_BLUEPRINT.md por uma versão consolidada contendo arquitetura, roadmap, separação Engine/Campanhas, estado atual das Actions, regras de segurança e prioridades oficiais do projeto.
+
+Risco:
+Baixo
+
+Impacto:
+Melhora a governança documental, reduz ambiguidades e facilita futuras evoluções da Engine.
+
+Reversão:
+Restaurar versão anterior do PROJECT_BLUEPRINT.md a partir do histórico Git.
+
+Status:
+Concluído
