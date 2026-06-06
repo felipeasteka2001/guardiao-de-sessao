@@ -389,3 +389,39 @@ Uma campanha de Vampiro pode ter outro perfil, como noir urbano, político, pred
 Uma campanha de D&D pode ter outro perfil, como fantasia épica, exploração e aventura.
 
 Nenhum tom específico de campanha deve ser tratado como regra global da Engine.
+
+
+## 14. Estado Atual das Actions Administrativas (Atualizado)
+
+Actions existentes e funcionais:
+
+- healthCheck
+- saveCheckpoint
+- readFile
+- readAnyFile
+- updateFile
+- getRepositoryTree
+- createFile
+- createDirectory
+- moveFile
+- renameFile
+
+Actions já testadas com sucesso:
+
+- createFile
+- readFile
+- readAnyFile
+- updateFile
+- getRepositoryTree
+- createDirectory
+- moveFile
+- renameFile
+- saveCheckpoint
+- healthCheck
+
+Próximas Actions:
+
+- searchRepository (planejada)
+- deleteFile (adiada por segurança)
+
+A seção anterior de "Próximas Actions Administrativas" deve ser considerada superada pelo estado operacional atual acima.
