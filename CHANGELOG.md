@@ -619,3 +619,34 @@ Remover os arquivos criados ou substituí-los por versões revisadas.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Definição oficial da arquitetura do campaign_template
+
+Tipo: template | arquitetura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/campaign_template/CAMPAIGN_TEMPLATE_ARCHITECTURE.md
+- CHANGELOG.md
+
+Motivo:
+Evitar acoplamento da Engine à estrutura específica da campanha Dante e estabelecer uma política oficial para campanhas futuras.
+
+Alteração realizada:
+Documentada a arquitetura baseada em base obrigatória enxuta, módulos opcionais e extensões por sistema. Definidos os arquivos obrigatórios, opcionais e a política de extensões específicas para sistemas como Vampiro, Cthulhu e D&D.
+
+Risco:
+Baixo
+
+Impacto:
+Permite que novas campanhas sejam criadas com diferentes necessidades sem herdar obrigatoriamente toda a estrutura da campanha Dante.
+
+Reversão:
+Remover ou substituir a documentação por uma versão revisada.
+
+Status:
+Concluído
