@@ -425,3 +425,42 @@ Próximas Actions:
 - deleteFile (adiada por segurança)
 
 A seção anterior de "Próximas Actions Administrativas" deve ser considerada superada pelo estado operacional atual acima.
+
+
+## CONSOLIDAÇÃO OFICIAL DO ESTADO DAS ACTIONS
+
+Esta seção substitui e invalida qualquer referência anterior que classifique readAnyFile, createDirectory, moveFile ou renameFile como Actions futuras.
+
+Estado oficial atual:
+
+Actions implementadas e funcionais:
+- healthCheck
+- saveCheckpoint
+- readFile
+- readAnyFile
+- updateFile
+- getRepositoryTree
+- createFile
+- createDirectory
+- moveFile
+- renameFile
+
+Actions implementadas e testadas:
+- healthCheck
+- saveCheckpoint
+- readFile
+- readAnyFile
+- updateFile
+- getRepositoryTree
+- createFile
+- createDirectory
+- moveFile
+- renameFile
+
+Backlog atual de Actions:
+- searchRepository
+
+Actions adiadas por decisão de segurança:
+- deleteFile
+
+A Fase 1 (Actions Administrativas) permanece em implementação apenas por pendências futuras e evolução da API, não por ausência das Actions listadas acima.
