@@ -47,19 +47,19 @@ Responsáveis por:
 ## 3. Roadmap Oficial
 
 ### Fase 0 — Blueprint
-Status: em andamento
+Status: concluída
 
 ### Fase 1 — Actions Administrativas
-Status: em implementação
+Status: concluída para o escopo essencial
 
 ### Fase 2 — Multi-Campanha
-Status: não iniciado
+Status: implementada inicialmente com a campanha Dante
 
 ### Fase 3 — Multi-Sistema
-Status: não iniciado
+Status: implementada inicialmente com o sistema guardiao
 
 ### Fase 4 — Templates
-Status: não iniciado
+Status: próxima etapa
 
 ### Fase 5 — Interface Web
 Status: futuro
@@ -204,7 +204,55 @@ Integração:
 
 ---
 
-## 10. Segurança Operacional
+## 10. Estado Estrutural Atual da Engine
+
+### Multi-Campanha
+
+A fase Multi-Campanha foi implementada inicialmente com a campanha Dante.
+
+Arquivos canônicos da campanha Dante migrados para:
+- campaigns/dante/
+
+Arquivos estruturais existentes da campanha Dante:
+- campaigns/dante/CAMPAIGN_CONFIG.md
+- campaigns/dante/00_NARRATIVE_PROFILE.md
+- campaigns/dante/01_CAMPAIGN_STATE.md
+- campaigns/dante/02_PERSONAGEM_E_PODERES.md
+- campaigns/dante/03_LEDGER_NUMERICO.md
+- campaigns/dante/04_SESSION_LOGS_DETALHADOS.md
+- campaigns/dante/05_INDICE_DE_CANON.md
+- campaigns/dante/06_SEGREDOS_DO_MESTRE.md
+- campaigns/dante/07_BESTIARIO_E_DUNGEONS.md
+- campaigns/dante/08_ACTIONS_E_CHECKPOINTS.md
+
+Checkpoints da campanha Dante migrados para:
+- checkpoints/dante/
+
+### Multi-Sistema
+
+A fase Multi-Sistema foi implementada inicialmente com o sistema guardiao.
+
+Sistema estruturado:
+- systems/guardiao/SYSTEM_RULES.md
+
+Sistemas reservados para evolução futura:
+- systems/dnd/
+- systems/vampiro/
+
+### Templates
+
+A fase Templates é a próxima etapa real da Engine.
+
+Diretórios existentes:
+- templates/campaign_template/
+- templates/system_template/
+- templates/character_template/
+
+Esses templates ainda precisam receber conteúdo mínimo padronizado.
+
+---
+
+## 11. Segurança Operacional
 
 Toda alteração estrutural exige autorização explícita do usuário.
 
@@ -219,7 +267,7 @@ Nunca apagar conteúdo sem autorização explícita.
 
 ---
 
-## 11. Separação de Instruções Narrativas
+## 12. Separação de Instruções Narrativas
 
 A Engine deve separar:
 
@@ -250,13 +298,13 @@ A Engine define persistência, estrutura e comportamento técnico.
 
 ---
 
-## 12. Próxima Meta Oficial
+## 13. Próxima Meta Oficial
 
 Concluir a camada de Engine antes de iniciar interface ou imagens.
 
 Prioridades imediatas:
-1. Consolidar Blueprint
-2. Evoluir Actions administrativas
-3. Estruturar Multi-Campanha
-4. Estruturar Multi-Sistema
-5. Criar Templates
+1. Criar template mínimo de campanha
+2. Criar template mínimo de sistema
+3. Criar template mínimo de personagem
+4. Testar geração manual de uma nova campanha a partir dos templates
+5. Somente depois considerar automações adicionais
