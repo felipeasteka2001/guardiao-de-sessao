@@ -2,10 +2,9 @@
 
 ## 1. Objetivo do Projeto
 
-O Guardião de Sessão é uma Engine Narrativa Persistente, não apenas um GPT de RPG.
+O Guardião de Sessão é uma Engine Narrativa Persistente.
 
-Seu objetivo é suportar:
-
+Objetivos principais:
 - múltiplos sistemas
 - múltiplas campanhas
 - múltiplos personagens
@@ -15,28 +14,24 @@ Seu objetivo é suportar:
 - futura interface própria
 - futura geração de imagens narrativas
 
-A campanha Dante é apenas a primeira campanha da engine.
+A campanha Dante é apenas a primeira campanha da Engine.
 
-## 2. Decisão Arquitetural Principal
+---
 
-O projeto deve separar claramente:
+## 2. Separação Arquitetural
 
 ### Engine
-
 Responsável por:
-
 - arquitetura
 - regras gerais
 - templates
 - sistemas
 - convenções
-- ações administrativas
+- Actions administrativas
 - estrutura reutilizável
 
 ### Campanhas
-
 Responsáveis por:
-
 - estado narrativo
 - personagens
 - poderes
@@ -47,95 +42,34 @@ Responsáveis por:
 - bestiário
 - checkpoints relacionados
 
-Exemplos de campanhas futuras:
-
-- Dante
-- Vampiro São Paulo
-- Vampiro New York
-- Forgotten Realms
-- Cthulhu
+---
 
 ## 3. Roadmap Oficial
 
 ### Fase 0 — Blueprint
-
-Status: em andamento.
-
-Objetivo:
-
-Definir a visão, arquitetura, estrutura e regras principais do projeto antes de expandir funcionalidades.
+Status: em andamento
 
 ### Fase 1 — Actions Administrativas
-
-Status: em implementação.
-
-Objetivo:
-
-Permitir que o Agent consiga administrar o repositório com segurança.
-
-Actions planejadas:
-
-- GET /api/tree
-- GET /api/read-any-file
-- GET /api/search
-- POST /api/create-file
-- POST /api/create-directory
-- POST /api/update-file
-- POST /api/move-file
-- POST /api/rename-file
+Status: em implementação
 
 ### Fase 2 — Multi-Campanha
-
-Status: não iniciado.
-
-Objetivo:
-
-Permitir múltiplas campanhas isoladas dentro da engine.
+Status: não iniciado
 
 ### Fase 3 — Multi-Sistema
-
-Status: não iniciado.
-
-Objetivo:
-
-Permitir múltiplos sistemas narrativos, como:
-
-- guardiao
-- vampiro
-- dnd
-- cthulhu
-
-Cada campanha deve apontar para um sistema.
+Status: não iniciado
 
 ### Fase 4 — Templates
-
-Status: não iniciado.
-
-Objetivo:
-
-Criar modelos reutilizáveis para campanhas, personagens e sistemas.
+Status: não iniciado
 
 ### Fase 5 — Interface Web
-
-Status: futuro.
-
-Objetivo:
-
-Criar painel visual próprio para gerenciamento narrativo.
+Status: futuro
 
 ### Fase 6 — Imagens Narrativas
+Status: futuro
 
-Status: futuro.
+---
 
-Objetivo:
-
-Gerar imagens persistentes de cenas, personagens e momentos narrativos.
-
-## 4. Regra de Prioridade
-
-Nenhuma funcionalidade de interface, imagem ou experiência visual possui prioridade maior que a conclusão da Engine até a Fase 4.
-
-Prioridade atual:
+## 4. Prioridade Oficial
 
 1. Blueprint
 2. Actions Administrativas
@@ -145,209 +79,147 @@ Prioridade atual:
 6. Interface
 7. Imagens
 
+Nenhuma funcionalidade visual possui prioridade superior à conclusão da Engine até a Fase 4.
+
+---
+
 ## 5. Estrutura Alvo do Repositório
-
-O repositório principal permanecerá com o nome:
-
-guardiao-de-sessao
-
-Estrutura alvo:
 
 guardiao-de-sessao/
 
 - PROJECT_BLUEPRINT.md
+- CHANGELOG.md
 - systems/
-  - guardiao/
-  - vampiro/
-  - dnd/
 - campaigns/
-  - dante/
-    - CAMPAIGN_CONFIG.md
-    - 01_CAMPAIGN_STATE.md
-    - 02_PERSONAGEM_E_PODERES.md
-    - 03_LEDGER_NUMERICO.md
-    - 04_SESSION_LOGS_DETALHADOS.md
-    - 05_INDICE_DE_CANON.md
-    - 06_SEGREDOS_DO_MESTRE.md
-    - 07_BESTIARIO_E_DUNGEONS.md
-    - 08_ACTIONS_E_CHECKPOINTS.md
-  - vampiro_sp/
 - checkpoints/
-  - dante/
-  - vampiro_sp/
 - templates/
-  - campaign_template/
-  - character_template/
-  - system_template/
 - shared/
-  - README.md
-  - conventions.md
 
-## 6. Decisão Sobre Checkpoints
+Estrutura desejada por campanha:
 
-Checkpoints não devem ficar dentro da pasta da campanha.
+campaigns/{campaign_id}/
+- CAMPAIGN_CONFIG.md
+- 00_NARRATIVE_PROFILE.md
+- arquivos canônicos da campanha
 
-Errado:
+Checkpoints:
 
-campaigns/dante/checkpoints/
+checkpoints/{campaign_id}/
+
+---
+
+## 6. Checkpoints
+
+Checkpoints não devem ficar dentro das campanhas.
 
 Correto:
-
-campaigns/dante/
-
-e
-
-checkpoints/dante/
+- campaigns/{campaign_id}/
+- checkpoints/{campaign_id}/
 
 Motivos:
+- escalabilidade
+- backup facilitado
+- separação entre canon e histórico
+- melhor organização
 
-- checkpoints crescem muito
-- facilita busca
-- facilita backup
-- não polui arquivos canônicos
-- separa estado consolidado de histórico bruto
+---
 
-## 7. CAMPAIGN_CONFIG.md
+## 7. Configuração de Campanha
 
-Cada campanha deve possuir um arquivo CAMPAIGN_CONFIG.md.
+Cada campanha deve possuir:
 
-Exemplo:
+CAMPAIGN_CONFIG.md
 
-Campaign Name: Dante  
-System: guardiao  
-Status: active  
-Created: 2026-06
+Responsável por definir:
+- sistema utilizado
+- status da campanha
+- arquivos principais
+- configurações técnicas
 
-Objetivo:
+---
 
-Permitir que o Agent descubra rapidamente:
-
-- qual sistema usar
-- se a campanha está ativa
-- qual configuração carregar
-- quais arquivos canônicos pertencem à campanha
-
-## 8. Decisão Sobre Agents
-
-Não criar outro Agent agora.
-
-Primeiro construir a Engine.
-
-Depois criar separação entre:
+## 8. Separação de Responsabilidades dos Agents
 
 ### Guardião Dev
-
-Agent com poderes administrativos.
-
 Pode:
-
 - reorganizar repositório
 - criar campanhas
-- mover arquivos
 - criar sistemas
 - criar templates
-- ajustar estrutura
+- executar Actions administrativas autorizadas
 
 ### Guardião Produção
-
-Agent narrador.
-
 Pode:
-
 - ler contexto
-- narrar campanha
+- narrar campanhas
 - salvar checkpoints
 
 Não pode:
+- alterar arquitetura
+- reorganizar estrutura sem autorização
 
-- reorganizar arquitetura
-- mover arquivos estruturais
-- alterar sistemas sem autorização
+---
 
-## 9. API Atual
-
-API:
-
-guardiao-api
+## 9. Estado Atual da API
 
 Hospedagem:
-
-Vercel
+- Vercel
 
 Integração:
+- GitHub API
 
-GitHub API
-
-Endpoints já existentes:
+### Actions implementadas e funcionais
 
 - healthCheck
 - saveCheckpoint
 - readFile
+- readAnyFile
 - updateFile
 - getRepositoryTree
 - createFile
+- createDirectory
+- moveFile
+- renameFile
 
-## 10. Bloqueios Resolvidos
+### Actions implementadas e testadas
 
-O problema de autorização GPT → API foi resolvido.
+- healthCheck
+- saveCheckpoint
+- readFile
+- readAnyFile
+- updateFile
+- getRepositoryTree
+- createFile
+- createDirectory
+- moveFile
+- renameFile
 
-Causa provável:
+### Backlog de Actions
 
-GUARDIAO_API_KEY precisava estar alinhada entre:
+- searchRepository
 
-- Vercel Environment Variables
-- Authentication da Action no Custom GPT
+### Actions adiadas por segurança
 
-A Action createFile foi testada com sucesso criando TEST_AGENT_WRITE.md.
+- deleteFile
 
-## 11. Próximas Actions Administrativas
+---
 
-Próximas Actions necessárias:
+## 10. Segurança Operacional
 
-1. createDirectory
-2. readAnyFile
-3. moveFile
-4. renameFile
+Toda alteração estrutural exige autorização explícita do usuário.
 
-Delete não deve ser implementado agora.
-
-## 12. Próxima Meta
-
-Criar a estrutura base da Engine:
-
-- systems/
-- campaigns/
-- templates/
-- shared/
-- checkpoints/dante/
-
-Depois migrar os arquivos atuais da raiz para:
-
-campaigns/dante/
-
-E mover checkpoints atuais para:
-
-checkpoints/dante/
-
-## 13. Regra de Segurança
-
-Toda alteração estrutural deve exigir autorização explícita do usuário.
-
-Actions administrativas devem registrar:
-
-- path afetado
+As operações devem registrar:
 - motivo
-- tipo de operação
-- confirmação explícita
-- resultado retornado pelo GitHub
+- arquivos afetados
+- resultado
+- impacto
+- possibilidade de reversão
 
 Nunca apagar conteúdo sem autorização explícita.
 
+---
 
-
-## Separação de Instruções Narrativas
-
-As instruções centrais do Agent não devem conter tom, tema ou canon específico de uma campanha.
+## 11. Separação de Instruções Narrativas
 
 A Engine deve separar:
 
@@ -356,111 +228,35 @@ A Engine deve separar:
 - perfil narrativo da campanha
 - estado canônico da campanha
 
-As Instructions centrais do Custom GPT devem definir o comportamento geral do Agent, regras de segurança, uso de Actions, persistência, checkpoints e prioridade de fontes.
-
-O tom, tema, ritmo, atmosfera, limites narrativos e estilo de narração devem ser definidos por campanha em um arquivo próprio:
+Arquivos:
 
 campaigns/{campaign_id}/00_NARRATIVE_PROFILE.md
 
-O arquivo CAMPAIGN_CONFIG.md deve definir configuração técnica da campanha, como nome, status, sistema usado e paths principais.
-
-O sistema usado pela campanha deve definir regras gerais em:
-
 systems/{system_id}/SYSTEM_RULES.md
 
-Durante uma narração, o Agent deve carregar e respeitar, nesta ordem:
+campaigns/{campaign_id}/CAMPAIGN_CONFIG.md
+
+Ordem de carregamento durante narração:
 
 1. CAMPAIGN_CONFIG.md
 2. 00_NARRATIVE_PROFILE.md
 3. SYSTEM_RULES.md
-4. arquivos canônicos da campanha
+4. arquivos canônicos
 5. checkpoints relevantes
 
-A campanha define o sabor narrativo.
-O sistema define a lógica de funcionamento.
-A Engine define persistência, segurança, estrutura e comportamento técnico.
+A campanha define o estilo narrativo.
+O sistema define as regras.
+A Engine define persistência, estrutura e comportamento técnico.
 
-Exemplo:
+---
 
-Dante deve ter seu próprio 00_NARRATIVE_PROFILE.md com tom frio, sombrio, calculado e persistente.
+## 12. Próxima Meta Oficial
 
-Uma campanha de Vampiro pode ter outro perfil, como noir urbano, político, predatório e claustrofóbico.
+Concluir a camada de Engine antes de iniciar interface ou imagens.
 
-Uma campanha de D&D pode ter outro perfil, como fantasia épica, exploração e aventura.
-
-Nenhum tom específico de campanha deve ser tratado como regra global da Engine.
-
-
-## 14. Estado Atual das Actions Administrativas (Atualizado)
-
-Actions existentes e funcionais:
-
-- healthCheck
-- saveCheckpoint
-- readFile
-- readAnyFile
-- updateFile
-- getRepositoryTree
-- createFile
-- createDirectory
-- moveFile
-- renameFile
-
-Actions já testadas com sucesso:
-
-- createFile
-- readFile
-- readAnyFile
-- updateFile
-- getRepositoryTree
-- createDirectory
-- moveFile
-- renameFile
-- saveCheckpoint
-- healthCheck
-
-Próximas Actions:
-
-- searchRepository (planejada)
-- deleteFile (adiada por segurança)
-
-A seção anterior de "Próximas Actions Administrativas" deve ser considerada superada pelo estado operacional atual acima.
-
-
-## CONSOLIDAÇÃO OFICIAL DO ESTADO DAS ACTIONS
-
-Esta seção substitui e invalida qualquer referência anterior que classifique readAnyFile, createDirectory, moveFile ou renameFile como Actions futuras.
-
-Estado oficial atual:
-
-Actions implementadas e funcionais:
-- healthCheck
-- saveCheckpoint
-- readFile
-- readAnyFile
-- updateFile
-- getRepositoryTree
-- createFile
-- createDirectory
-- moveFile
-- renameFile
-
-Actions implementadas e testadas:
-- healthCheck
-- saveCheckpoint
-- readFile
-- readAnyFile
-- updateFile
-- getRepositoryTree
-- createFile
-- createDirectory
-- moveFile
-- renameFile
-
-Backlog atual de Actions:
-- searchRepository
-
-Actions adiadas por decisão de segurança:
-- deleteFile
-
-A Fase 1 (Actions Administrativas) permanece em implementação apenas por pendências futuras e evolução da API, não por ausência das Actions listadas acima.
+Prioridades imediatas:
+1. Consolidar Blueprint
+2. Evoluir Actions administrativas
+3. Estruturar Multi-Campanha
+4. Estruturar Multi-Sistema
+5. Criar Templates
