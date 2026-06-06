@@ -586,3 +586,36 @@ Remover ou substituir o template por uma versão revisada.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Estrutura oficial inicial do sistema Vampiro
+
+Tipo: sistema | estrutura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- systems/vampiro/SYSTEM_RULES.md
+- systems/vampiro/CHARACTER_TEMPLATE.md
+- systems/vampiro/REFERENCES.md
+- CHANGELOG.md
+
+Motivo:
+Preparar a Engine para suportar campanhas inspiradas em Vampiro: A Máscara V20 mantendo separação entre Engine, Sistema e Campanha e respeitando restrições de conteúdo protegido.
+
+Alteração realizada:
+Criados arquivos de integração sistêmica, ficha modular e política de referências para o sistema Vampiro. Os documentos utilizam placeholders e orientações genéricas sem reproduzir regras, tabelas, disciplinas ou texto protegido.
+
+Risco:
+Baixo
+
+Impacto:
+A Engine passa a possuir uma base oficial para campanhas do sistema Vampiro, permitindo evolução futura sem acoplamento ao cenário Dante.
+
+Reversão:
+Remover os arquivos criados ou substituí-los por versões revisadas.
+
+Status:
+Concluído
