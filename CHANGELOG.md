@@ -555,3 +555,34 @@ Remover ou substituir os templates por versões revisadas.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Criação do template funcional genérico de sistema
+
+Tipo: template | sistema
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/system_template/SYSTEM_RULES.md
+- CHANGELOG.md
+
+Motivo:
+Estabilizar a arquitetura Multi-Sistema antes de expandir os templates de campanha, mantendo a separação entre Engine, Sistema e Campanha.
+
+Alteração realizada:
+Criado um modelo genérico de SYSTEM_RULES.md utilizando placeholders para identificação, princípios centrais, método de resolução, progressão, recursos, checkpoints e restrições narrativas. O template foi projetado para suportar sistemas com ou sem dados, horror investigativo, fantasia, vampiro, sci-fi e outros estilos.
+
+Risco:
+Baixo
+
+Impacto:
+Fornece uma base reutilizável para criação padronizada de novos sistemas sem acoplamento ao sistema Guardião.
+
+Reversão:
+Remover ou substituir o template por uma versão revisada.
+
+Status:
+Concluído
