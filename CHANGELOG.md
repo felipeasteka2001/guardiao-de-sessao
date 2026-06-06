@@ -490,3 +490,36 @@ Restaurar versão anterior do PROJECT_BLUEPRINT.md através do histórico Git.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Criação dos templates mínimos da Fase 4
+
+Tipo: template | estrutura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/campaign_template/TEMPLATE_STRUCTURE.md
+- templates/system_template/TEMPLATE_STRUCTURE.md
+- templates/character_template/TEMPLATE_STRUCTURE.md
+- CHANGELOG.md
+
+Motivo:
+Iniciar oficialmente a Fase 4 (Templates) após a consolidação do Blueprint.
+
+Alteração realizada:
+Criados documentos de estrutura mínima para campanha, sistema e personagem, definindo os artefatos obrigatórios esperados pela Engine.
+
+Risco:
+Baixo
+
+Impacto:
+A Engine passa a possuir uma primeira referência formal para criação padronizada de campanhas, sistemas e personagens.
+
+Reversão:
+Remover os arquivos de template ou substituí-los por versões mais completas.
+
+Status:
+Concluído
