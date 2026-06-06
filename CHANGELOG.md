@@ -328,3 +328,35 @@ Restaurar versão anterior do PROJECT_BLUEPRINT.md a partir do histórico Git.
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Criação dos arquivos iniciais da campanha Dante
+
+Tipo: estrutura | campanha
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- campaigns/dante/CAMPAIGN_CONFIG.md
+- campaigns/dante/00_NARRATIVE_PROFILE.md
+- CHANGELOG.md
+
+Motivo:
+Iniciar a estrutura formal da campanha Dante conforme definido no Blueprint consolidado e preparar a futura migração dos arquivos canônicos.
+
+Alteração realizada:
+Criados os arquivos CAMPAIGN_CONFIG.md e 00_NARRATIVE_PROFILE.md dentro de campaigns/dante/, definindo configuração técnica da campanha e perfil narrativo separado da Engine.
+
+Risco:
+Baixo
+
+Impacto:
+Primeiro passo efetivo da Fase Multi-Campanha, permitindo separar configuração técnica, perfil narrativo e canon da campanha.
+
+Reversão:
+Remover os arquivos criados ou restaurar versão anterior da estrutura da campanha.
+
+Status:
+Concluído
