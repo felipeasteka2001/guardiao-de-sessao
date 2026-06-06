@@ -391,3 +391,40 @@ Remover ou substituir o arquivo por versão anterior.
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Migração dos arquivos canônicos para campaigns/dante
+
+Tipo: migração | campanha
+
+Operador: usuário / Guardião Dev
+
+Action usada: moveFile
+
+Arquivos afetados:
+- 01_CAMPAIGN_STATE.md -> campaigns/dante/01_CAMPAIGN_STATE.md
+- 02_PERSONAGEM_E_PODERES.md -> campaigns/dante/02_PERSONAGEM_E_PODERES.md
+- 03_LEDGER_NUMERICO.md -> campaigns/dante/03_LEDGER_NUMERICO.md
+- 04_SESSION_LOGS_DETALHADOS.md -> campaigns/dante/04_SESSION_LOGS_DETALHADOS.md
+- 05_INDICE_DE_CANON.md -> campaigns/dante/05_INDICE_DE_CANON.md
+- 06_SEGREDOS_DO_MESTRE.md -> campaigns/dante/06_SEGREDOS_DO_MESTRE.md
+- 07_BESTIARIO_E_DUNGEONS.md -> campaigns/dante/07_BESTIARIO_E_DUNGEONS.md
+- 08_ACTIONS_E_CHECKPOINTS.md -> campaigns/dante/08_ACTIONS_E_CHECKPOINTS.md
+
+Motivo:
+Alinhar a estrutura real do repositório ao Blueprint consolidado e iniciar oficialmente a fase Multi-Campanha.
+
+Alteração realizada:
+Os arquivos canônicos da campanha Dante foram removidos da raiz e migrados para campaigns/dante/.
+
+Risco:
+Baixo
+
+Impacto:
+A campanha Dante passa a possuir estrutura própria e isolada dentro da Engine.
+
+Reversão:
+Mover os arquivos de volta para a raiz utilizando moveFile.
+
+Status:
+Concluído
