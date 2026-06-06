@@ -235,3 +235,34 @@ Concluído
 - Impacto: Apenas renomeação de arquivo de teste.
 - Risco: Baixo.
 - Reversão: Renomear novamente para o nome original.
+
+
+### 2026-06-05 — Atualização do Blueprint para refletir Actions implementadas
+
+Tipo: documentação | Action
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- PROJECT_BLUEPRINT.md
+- CHANGELOG.md
+
+Motivo:
+O Blueprint estava desatualizado em relação ao estado real das Actions administrativas já implementadas e testadas.
+
+Alteração realizada:
+Adicionada seção consolidando as Actions existentes e funcionais (healthCheck, saveCheckpoint, readFile, readAnyFile, updateFile, getRepositoryTree, createFile, createDirectory, moveFile e renameFile), bem como a distinção entre Actions operacionais e futuras.
+
+Risco:
+Baixo
+
+Impacto:
+A documentação passa a refletir o estado atual da API e das capacidades administrativas da Engine.
+
+Reversão:
+Remover a seção adicionada ao Blueprint e restaurar a versão anterior da documentação.
+
+Status:
+Concluído
