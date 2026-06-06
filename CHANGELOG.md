@@ -650,3 +650,36 @@ Remover ou substituir a documentação por uma versão revisada.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Criação dos templates obrigatórios mínimos de campanha
+
+Tipo: template | campanha
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- templates/campaign_template/01_CAMPAIGN_STATE.md
+- templates/campaign_template/03_LEDGER_NUMERICO.md
+- templates/campaign_template/05_INDICE_DE_CANON.md
+- CHANGELOG.md
+
+Motivo:
+Completar a base obrigatória mínima de uma campanha conforme a arquitetura oficial definida para o campaign_template.
+
+Alteração realizada:
+Criados modelos reutilizáveis para estado da campanha, ledger numérico e índice de canon utilizando placeholders genéricos e independentes de sistema.
+
+Risco:
+Baixo
+
+Impacto:
+Uma campanha mínima agora pode ser criada utilizando apenas os arquivos obrigatórios definidos pela arquitetura oficial da Engine.
+
+Reversão:
+Remover ou substituir os templates por versões revisadas.
+
+Status:
+Concluído
