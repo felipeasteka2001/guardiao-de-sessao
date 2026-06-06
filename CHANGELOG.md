@@ -187,3 +187,36 @@ Remover ou revisar a seção “Separação de Instruções Narrativas” no PRO
 
 Status:
 Concluído
+
+
+---
+
+### 2026-06-05 — Correção da validação de path do readAnyFile para arquivos .gitkeep
+
+Tipo: Action
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- CHANGELOG.md
+- implementação da Action readAnyFile
+
+Motivo:
+A validação de path da Action readAnyFile estava rejeitando caminhos válidos contendo arquivos .gitkeep, impedindo a leitura de arquivos existentes do repositório.
+
+Alteração realizada:
+Corrigida a validação de path da Action readAnyFile para permitir a leitura de arquivos .gitkeep válidos do repositório, mantendo as restrições de segurança para evitar acesso a paths perigosos ou não autorizados.
+
+Risco:
+Baixo
+
+Impacto:
+Permite leitura correta de arquivos .gitkeep utilizados para versionamento de diretórios, sem ampliar indevidamente a superfície de acesso da Action.
+
+Reversão:
+Restaurar a lógica anterior de validação de path caso seja identificado comportamento inesperado.
+
+Status:
+Concluído
