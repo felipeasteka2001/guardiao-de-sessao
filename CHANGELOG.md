@@ -718,3 +718,34 @@ Remover ou substituir os templates por versões revisadas.
 
 Status:
 Concluído
+
+
+### 2026-06-06 — Protocolo obrigatório de criação de personagem para Vampiro
+
+Tipo: sistema | arquitetura
+
+Operador: usuário / Guardião Dev
+
+Action usada: createFile
+
+Arquivos afetados:
+- systems/vampiro/CHARACTER_CREATION_PROTOCOL.md
+- CHANGELOG.md
+
+Motivo:
+O playtest identificou uma falha de fluxo onde a narrativa foi iniciada antes da conclusão da ficha do personagem.
+
+Alteração realizada:
+Criado protocolo formal determinando que campanhas novas de Vampiro devem passar por apresentação da crônica, contexto da cidade, conceito, criação de ficha, revisão e registro canônico antes de qualquer prólogo ou cena jogável.
+
+Risco:
+Baixo
+
+Impacto:
+Padroniza a sessão zero e evita que campanhas futuras iniciem a narrativa sem personagem devidamente construído.
+
+Reversão:
+Remover ou revisar o protocolo conforme futuras versões da Engine.
+
+Status:
+Concluído
