@@ -266,3 +266,34 @@ Remover a seção adicionada ao Blueprint e restaurar a versão anterior da docu
 
 Status:
 Concluído
+
+
+### 2026-06-05 — Consolidação oficial do estado das Actions
+
+Tipo: documentação | Action
+
+Operador: usuário / Guardião Dev
+
+Action usada: updateFile
+
+Arquivos afetados:
+- PROJECT_BLUEPRINT.md
+- CHANGELOG.md
+
+Motivo:
+Eliminar ambiguidades entre seções antigas do Blueprint e o estado operacional real das Actions já implementadas e testadas.
+
+Alteração realizada:
+Registrada consolidação oficial declarando healthCheck, saveCheckpoint, readFile, readAnyFile, updateFile, getRepositoryTree, createFile, createDirectory, moveFile e renameFile como Actions implementadas e testadas. searchRepository permanece em backlog e deleteFile permanece adiada por segurança.
+
+Risco:
+Baixo
+
+Impacto:
+Reduz inconsistências documentais e estabelece uma referência oficial para o estado atual da API administrativa.
+
+Reversão:
+Remover a seção de consolidação e revisar manualmente o Blueprint.
+
+Status:
+Concluído
