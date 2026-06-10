@@ -827,3 +827,25 @@ Risco:
 
 Reversão:
 - Remover o arquivo de lore estrutural e a seção de limites de nível do sistema.
+
+
+## 2026-06-10 — Personagens Estruturais e Escala de Poder
+
+Motivo:
+- Definir lideranças mundiais, elite da Organização e invocados de referência.
+
+Arquivos afetados:
+- campaigns/dante/10_PERSONAGENS_ESTRUTURAIS.md
+
+Impacto:
+- Escala de poder mundial definida.
+- Conselho Central da Organização definido.
+- Divisão de Elite (Vanguarda) definida.
+- Invocados de destaque definidos.
+- Referência de níveis para futuras narrativas estabelecida.
+
+Risco:
+- Baixo. Estrutura expansível.
+
+Reversão:
+- Remover ou revisar o arquivo de personagens estruturais.
