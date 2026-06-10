@@ -849,3 +849,23 @@ Risco:
 
 Reversão:
 - Remover ou revisar o arquivo de personagens estruturais.
+
+
+## 2026-06-10 — Profundidade Narrativa dos Personagens Estruturais
+
+Motivo:
+- Adicionar segredos, histórico e potencial de conflito aos líderes mundiais.
+
+Arquivos afetados:
+- campaigns/dante/10_PERSONAGENS_ESTRUTURAIS.md
+
+Impacto:
+- Magnus Vhalor passa a ter ligação direta com Ondas anteriores.
+- Lideranças ganham conhecimento oculto e potencial para futuros conflitos narrativos.
+- Possibilidade de antagonistas surgirem de posições de autoridade estabelecidas.
+
+Risco:
+- Baixo.
+
+Reversão:
+- Remover a seção de Segredos Estruturais.
