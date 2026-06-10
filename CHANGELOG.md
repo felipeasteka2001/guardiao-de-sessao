@@ -803,3 +803,27 @@ Risco:
 
 Reversão:
 - Remover a seção 'Interface Narrativa Obrigatória' do perfil narrativo da campanha.
+
+
+## 2026-06-10 — Ondas de Calamidade e Limites de Nível
+
+Motivo:
+- Formalizar a estrutura narrativa das Ondas de Calamidade na campanha Dante.
+- Definir limite padrão de nível para personagens jogáveis.
+
+Arquivos afetados:
+- campaigns/dante/09_LORE_ESTRUTURAL.md
+- systems/guardiao/SYSTEM_RULES.md
+
+Impacto:
+- Introduzidas Ondas de Calamidade como fundamento do mundo.
+- Calamidades passam a ser ameaças mundiais canônicas.
+- Primeira Calamidade definida como nível 80.
+- Nível máximo padrão dos personagens estabelecido em 100.
+- Entidades especiais podem ultrapassar o limite padrão.
+
+Risco:
+- Baixo. Expansão controlada da lore e do sistema.
+
+Reversão:
+- Remover o arquivo de lore estrutural e a seção de limites de nível do sistema.
