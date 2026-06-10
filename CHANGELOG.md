@@ -869,3 +869,23 @@ Risco:
 
 Reversão:
 - Remover a seção de Segredos Estruturais.
+
+
+## 2026-06-10 — Regra Oficial de Salvamento Completo
+
+Motivo:
+- Garantir persistência confiável da narrativa e reconstrução futura da campanha.
+
+Arquivos afetados:
+- 00_REGRAS_DO_AGENT.md
+
+Impacto:
+- Checkpoints deixam de ser a única forma de persistência narrativa.
+- Sessões relevantes devem atualizar estado atual, logs e canon.
+- Redução da dependência do histórico do chat.
+
+Risco:
+- Baixo.
+
+Reversão:
+- Remover a seção 'Regra de Salvamento Completo'.
