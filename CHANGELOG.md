@@ -785,3 +785,21 @@ Evita perguntas prematuras sobre geração e melhora a compatibilidade do protoc
 
 Status:
 Concluído
+
+
+## 2026-06-10 — Interface Narrativa Obrigatória da Campanha Dante
+
+Motivo:
+- Adicionar painel de status ao final de cada cena narrada.
+
+Arquivos afetados:
+- campaigns/dante/00_NARRATIVE_PROFILE.md
+
+Impacto:
+- Toda narração da campanha Dante deverá exibir HP, Mana, Status, Invocações, Pactos, Cooldowns, Itens Relevantes e Objetivos Ativos ao final da cena.
+
+Risco:
+- Baixo. Alteração restrita ao comportamento narrativo da campanha Dante.
+
+Reversão:
+- Remover a seção 'Interface Narrativa Obrigatória' do perfil narrativo da campanha.
