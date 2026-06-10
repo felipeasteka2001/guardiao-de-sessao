@@ -62,3 +62,23 @@ A Engine define:
 - segurança
 - Actions
 - organização do repositório
+
+
+---
+
+## Limites de Nível
+
+### Personagens Jogáveis
+
+- Nível máximo padrão: 100
+
+### Exceções
+
+As seguintes categorias podem ultrapassar o limite padrão de nível:
+
+- Calamidades
+- Entidades Especiais
+- Chefes Mundiais
+- Artefatos ou efeitos explicitamente definidos pelo canon
+
+O limite de nível dos personagens jogáveis permanece 100, salvo futura alteração canônica específica.
