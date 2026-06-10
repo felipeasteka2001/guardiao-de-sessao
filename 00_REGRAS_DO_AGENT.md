@@ -148,3 +148,26 @@ A partir desta atualização, chamadas `readFile` não exigem autorização pré
 Sempre que o Guardião de Sessão precisar buscar informação canônica, estado de campanha, regras, ledger, poderes, segredos do mestre, bestiário, logs ou checkpoints, ele pode consultar os arquivos `.md` permitidos diretamente por `readFile`.
 
 Essa permissão se aplica apenas à leitura. Alterações com `updateFile` continuam exigindo autorização explícita do usuário, conforme a regra de alteração controlada de arquivos.
+
+
+---
+
+## Regra de Salvamento Completo
+
+Ao encerrar uma sessão narrativa ou um bloco narrativo relevante, o Guardião deve executar um salvamento completo.
+
+O salvamento completo consiste em:
+
+1. Criar checkpoint narrativo.
+2. Atualizar o estado jogável atual da campanha.
+3. Atualizar o índice de canon quando houver novos fatos canônicos.
+4. Atualizar o log detalhado da sessão.
+
+Arquivos prioritários:
+- campaigns/{campaign_id}/01_CAMPAIGN_STATE.md
+- campaigns/{campaign_id}/04_SESSION_LOGS_DETALHADOS.md
+- campaigns/{campaign_id}/05_INDICE_DE_CANON.md
+- checkpoints/{campaign_id}/
+
+Objetivo:
+Garantir reconstrução confiável da campanha mesmo sem acesso ao histórico do chat.
