@@ -84,3 +84,26 @@ Conhecida como Vanguarda.
 Nenhum personagem conhecido atualmente ultrapassa o nível 80.
 
 A primeira Calamidade planejada será a primeira entidade amplamente conhecida a atingir esse patamar de ameaça.
+
+
+
+---
+
+## Segredos Estruturais
+
+### Magnus Vhalor
+- Sobreviveu a uma Onda de Calamidade anterior.
+- Possui informações restritas sobre a origem das Ondas.
+- Nem todas as informações são compartilhadas com a Organização.
+
+### Seraphina Noctis
+- Mantém uma rede de informantes espalhada pelo mundo.
+- Possui acesso a registros proibidos sobre invocados desaparecidos.
+
+### Kael Draven
+- Liderou campanhas militares contra ameaças classificadas.
+- É considerado um dos poucos humanos capazes de enfrentar sozinho um exército comum.
+
+## Observação Narrativa
+
+Os maiores antagonistas futuros não precisam surgir como vilões declarados. Autoridades, mentores, aliados e líderes mundiais podem possuir objetivos ocultos e interesses conflitantes com Dante.
