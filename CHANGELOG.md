@@ -889,3 +889,22 @@ Risco:
 
 Reversão:
 - Remover a seção 'Regra de Salvamento Completo'.
+
+## 2026-06-15 — Nova Action createFiles (planejada e implementada na API)
+
+Motivo:
+- Necessidade de criação de múltiplos arquivos em uma única operação administrativa.
+
+Arquivos afetados:
+- guardiao-api/api/create-files.ts
+- OpenAPI schema (operationId: createFiles)
+
+Impacto:
+- Permite criação em massa de arquivos em paths seguros.
+- Reduz dezenas de chamadas administrativas para uma única ação.
+
+Risco:
+- Baixo, desde que mantidas validações de path seguro e autorização explícita.
+
+Reversão:
+- Remover endpoint create-files e sua definição no schema OpenAPI.
