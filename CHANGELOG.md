@@ -908,3 +908,16 @@ Risco:
 
 Reversão:
 - Remover endpoint create-files e sua definição no schema OpenAPI.
+
+## 2026-06-15 - Completação da estrutura mínima da campanha dante_v2
+
+- Tipo: Criação estrutural
+- Arquivos afetados:
+  - campaigns/dante_v2/05_INDICE_DE_CANON.md
+  - campaigns/dante_v2/06_SEGREDOS_DO_MESTRE.md
+  - campaigns/dante_v2/07_BESTIARIO_E_DUNGEONS.md
+  - campaigns/dante_v2/08_ACTIONS_E_CHECKPOINTS.md
+- Motivo: Completar a estrutura mínima exigida pelo template oficial de campanha.
+- Impacto: dante_v2 passa a estar alinhada à arquitetura base da Engine.
+- Risco: Baixo.
+- Reversão: Remover os arquivos criados ou restaurar versão anterior da árvore da campanha.
