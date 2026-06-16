@@ -1,0 +1,15 @@
+system_id: champions_complete_6e
+campaign_id: heroes_main
+campaign_type: superheroic
+starting_cp: 400
+matching_complications: 75
+maximum_points_per_complication: 40
+active_point_limit: 60
+damage_class_limit: 12
+maximum_normal_defense: 30
+maximum_resistant_defense: 20
+default_spd_range: 4-6
+tone: four_color
+lethality: low
+optional_rules: []
+house_rules: []
