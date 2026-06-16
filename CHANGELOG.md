@@ -921,3 +921,10 @@ Reversão:
 - Impacto: dante_v2 passa a estar alinhada à arquitetura base da Engine.
 - Risco: Baixo.
 - Reversão: Remover os arquivos criados ou restaurar versão anterior da árvore da campanha.
+
+## 2026-06-16
+- Criado diretório `systems/champions_complete_6e/` para integração do pacote Champions Complete 6E / HERO System.
+- Arquivo afetado: systems/champions_complete_6e/.gitkeep
+- Impacto: prepara a camada global de sistema para campanhas de super-heróis.
+- Risco: baixo.
+- Reversão: remover o diretório caso a integração seja cancelada.
