@@ -205,3 +205,66 @@ O poder oferece proteção inconsciente limitada contra condições ambientais m
 
 ## Observação de Validação
 Esta versão define a ficha conceitual e mecânica inicial do Ryan, mas ainda exige auditoria final de Character Points em Champions Complete 6e para validar custos exatos de Characteristics, Skills, Talents, Perks, Complications e Powers.
+
+
+## Auditoria de CP e Distribuição Inicial
+
+### Orçamento da Campanha
+- Total: 400 CP
+
+### Characteristics
+- Total gasto: 189 CP
+
+### Skills
+- Total estimado: 20 CP
+
+### Talents
+- Total estimado: 10 CP
+
+### Perks
+- Total estimado: 5 CP
+
+### Powers
+- Total disponível para Powers: 176 CP
+
+#### Psicomaterial Manipulation Multipower
+- Total: 120 CP
+- Multipower Pool: 60 CP
+
+Slots:
+- Telekinesis: 10 CP
+- Matter Reshaping: 10 CP
+- Material Analysis: 5 CP
+- Material Barrier: 10 CP
+- Structural Reinforcement: 5 CP
+- Molecular Destabilization: 20 CP
+- Estrutura e slots do framework: totalizando 120 CP
+
+#### Mental Defense
+- 20 CP
+
+#### Psicomaterial Sense
+- 20 CP
+
+#### Life Support Parcial
+- 10 CP
+
+#### Reserva Evolutiva
+- 6 CP
+
+### Fechamento
+| Categoria | CP |
+|---|---:|
+| Characteristics | 189 |
+| Skills | 20 |
+| Talents | 10 |
+| Perks | 5 |
+| Multipower | 120 |
+| Mental Defense | 20 |
+| Psicomaterial Sense | 20 |
+| Life Support | 10 |
+| Reserva | 6 |
+| TOTAL | 400 |
+
+### Status
+Ficha inicial considerada completa para uso em campanha, pendente apenas de futura auditoria detalhada dos custos individuais de Powers quando todas as tabelas de Champions Complete 6e estiverem importadas para a base.
