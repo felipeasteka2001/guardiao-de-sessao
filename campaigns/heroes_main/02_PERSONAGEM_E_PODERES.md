@@ -28,3 +28,180 @@ Nenhum personagem registrado.
 - Inteligência: alta
 - Força de vontade: extremamente alta
 - Presença: discreta
+
+
+---
+
+# Ryan Krubic - Ficha Inicial Oficial
+
+## Classificação Atual
+- Campanha: heroes_main
+- Sistema: champions_complete_6e
+- Escala atual: Nível 1 Alto
+- Potencial futuro: Nível 3+
+- Arquétipo mecânico: Manipulador de Matéria / Controle de Campo / Utilidade Científica
+
+## Fonte do Poder
+Ryan manifesta Manipulação Psicomaterial por meio de energia roxa escura.
+
+Ele manipula matéria existente com muito mais facilidade do que cria matéria nova. Criar matéria é possível em potencial, mas exige muito mais energia, concentração e evolução do poder.
+
+### Estado Atual
+- Manipulação de matéria existente: dominada em nível inicial alto.
+- Criação de matéria: possível apenas em escala pequena, instável ou futura.
+- Criação complexa, matéria exótica ou grandes massas: ainda fora do controle atual.
+
+## Characteristics Oficiais
+
+| Característica | Valor |
+|---|---:|
+| STR | 15 |
+| DEX | 20 |
+| CON | 20 |
+| INT | 23 |
+| EGO | 25 |
+| PRE | 10 |
+| OCV | 6 |
+| DCV | 6 |
+| OMCV | 8 |
+| DMCV | 8 |
+| SPD | 5 |
+| PD | 10 |
+| ED | 10 |
+| REC | 8 |
+| END | 40 |
+| BODY | 12 |
+| STUN | 40 |
+
+## Interpretação dos Stats
+- STR 15: fisicamente acima da média, mas não focado em força bruta.
+- DEX 20: reflexos de herói e combate competente.
+- CON 20: resistência física sólida.
+- INT 23: inteligência elevada, base científica do personagem.
+- EGO 25: força de vontade excepcional e núcleo do controle psicomaterial.
+- PRE 10: presença discreta, não intimidador ou líder nato.
+- SPD 5: atua rápido em combate, mas não é velocista.
+
+## Complications Iniciais
+
+### Poder em Evolução Imprevisível
+Os poderes psicomateriais de Ryan não são totalmente compreendidos. Novas manifestações podem surgir sob estresse extremo, contato com materiais desconhecidos, descobertas científicas ou eventos emocionais fortes.
+
+### Busca pela Origem dos Poderes
+Ryan quer descobrir de onde vieram suas habilidades e por que elas se manifestaram nele.
+
+### Curiosidade Obsessiva
+Ryan tem dificuldade em ignorar mistérios científicos, anomalias materiais e fenômenos ligados à origem dos poderes.
+
+### Jovem e Inexperiente
+Apesar de poderoso, Ryan ainda está aprendendo a tomar decisões sob pressão.
+
+### Pessoas Importantes
+Amigos, família e pessoas próximas podem ser usados contra ele ou colocados em risco por sua vida heroica.
+
+## Skills Iniciais Propostas
+- Science: Physics
+- Science: Chemistry
+- Inventor
+- Computer Programming
+- Deduction
+- Electronics
+- Mechanics
+- Research
+
+## Talents Iniciais Propostos
+- Eidetic Memory
+- Lightning Calculator
+
+## Perks Iniciais Propostos
+- Access to Academic Facilities
+- Scientific Contacts
+
+## Powers - Psicomaterial Manipulation Array
+
+### Framework Principal
+**Psicomaterial Manipulation Array**
+
+- Estrutura proposta: Multipower Pool de 60 Active Points.
+- Tema visual: energia roxa escura envolvendo matéria, objetos ou barreiras.
+- Função principal: controle de campo, defesa, utilidade e manipulação estrutural.
+- Limitação conceitual atual: manipular matéria existente é muito mais eficiente do que criar matéria nova.
+
+### Slot 1 - Telekinesis
+Move, segura, ergue e arremessa objetos ou alvos através de força psicomaterial.
+
+Uso narrativo:
+- levantar carros;
+- segurar inimigos;
+- mover objetos pesados;
+- arremessar destroços;
+- manipular várias toneladas em nível 1 alto.
+
+### Slot 2 - Matter Reshaping
+Altera forma e estrutura de materiais existentes.
+
+Uso narrativo:
+- dobrar metal;
+- remodelar concreto;
+- criar formas simples;
+- transformar objetos em ferramentas ou obstáculos;
+- alterar matéria existente sem criar massa significativa do nada.
+
+### Slot 3 - Material Analysis
+Analisa composição, falhas e propriedades de materiais.
+
+Uso narrativo:
+- identificar materiais;
+- detectar fraquezas estruturais;
+- perceber composição química;
+- encontrar pontos fracos em objetos, paredes, armas ou mecanismos.
+
+### Slot 4 - Material Barrier
+Cria barreiras, paredes, escudos ou coberturas usando matéria e energia psicomaterial.
+
+Uso narrativo:
+- proteger a si mesmo;
+- proteger aliados próximos;
+- bloquear disparos;
+- criar barricadas ou cúpulas simples.
+
+### Slot 5 - Structural Reinforcement
+Reforça a resistência de materiais, objetos, roupas, paredes ou veículos.
+
+Uso narrativo:
+- endurecer superfícies;
+- reforçar uma cobertura;
+- proteger estruturas frágeis;
+- aumentar a durabilidade de objetos manipulados.
+
+### Slot 6 - Molecular Destabilization
+Enfraquece, quebra ou compromete estruturas materiais.
+
+Uso narrativo:
+- fragilizar metal;
+- quebrar mecanismos;
+- abrir passagens;
+- reduzir resistência de obstáculos;
+- desestabilizar matéria comum em escala limitada.
+
+## Poderes Fora do Array
+
+### Mental Resistance
+Ryan possui resistência mental elevada, ligada à sua força de vontade excepcional.
+
+### Psicomaterial Sense
+Ryan consegue sentir matéria, estrutura, composição e falhas materiais ao redor.
+
+### Life Support Parcial
+O poder oferece proteção inconsciente limitada contra condições ambientais moderadas, como calor, frio ou pressão.
+
+## Perfil de Função
+- Combate direto: médio.
+- Controle de campo: muito alto.
+- Defesa: alta.
+- Investigação científica: alta.
+- Utilidade: muito alta.
+- Potencial de evolução: extremo.
+
+## Observação de Validação
+Esta versão define a ficha conceitual e mecânica inicial do Ryan, mas ainda exige auditoria final de Character Points em Champions Complete 6e para validar custos exatos de Characteristics, Skills, Talents, Perks, Complications e Powers.
