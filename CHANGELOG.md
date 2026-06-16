@@ -943,3 +943,28 @@ Reversão:
 - Sistema associado: champions_complete_6e.
 - Estrutura inicial da campanha criada com arquivos canônicos e CAMPAIGN_CONFIG.
 - Objetivo: ambiente de validação do sistema de super-heróis.
+
+
+## 2026-06-16 - heroes_main - Ficha inicial oficial de Ryan Krubic
+
+### Motivo
+Consolidação da primeira versão oficial do personagem principal da campanha heroes_main.
+
+### Arquivos afetados
+- campaigns/heroes_main/02_PERSONAGEM_E_PODERES.md
+
+### Alterações
+- Definidos Characteristics iniciais.
+- Definidas Complications iniciais.
+- Definidos Skills, Talents e Perks propostos.
+- Estruturado Psicomaterial Manipulation Array.
+- Registrado potencial evolutivo e papel mecânico do personagem.
+
+### Impacto
+Estabelece a base canônica da ficha do personagem para futuras validações e evolução.
+
+### Risco
+Baixo. Custos exatos em Character Points ainda dependem de auditoria final do sistema Champions Complete 6e.
+
+### Reversão
+Remover ou substituir a seção 'Ryan Krubic - Ficha Inicial Oficial' em 02_PERSONAGEM_E_PODERES.md.
