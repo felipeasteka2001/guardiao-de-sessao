@@ -968,3 +968,26 @@ Baixo. Custos exatos em Character Points ainda dependem de auditoria final do si
 
 ### Reversão
 Remover ou substituir a seção 'Ryan Krubic - Ficha Inicial Oficial' em 02_PERSONAGEM_E_PODERES.md.
+
+
+## 2026-06-16 - heroes_main - Auditoria inicial de CP de Ryan Krubic
+
+### Motivo
+Concluir a primeira distribuição de Character Points da ficha.
+
+### Arquivos afetados
+- campaigns/heroes_main/02_PERSONAGEM_E_PODERES.md
+
+### Alterações
+- Registrado total de 400 CP.
+- Registrada distribuição entre Characteristics, Skills, Talents, Perks e Powers.
+- Registrada estrutura inicial do Multipower e reserva evolutiva.
+
+### Impacto
+Permite utilizar o personagem como ficha inicial consolidada da campanha.
+
+### Risco
+Médio. Valores dos Powers ainda dependem de futura auditoria detalhada com tabelas completas do sistema.
+
+### Reversão
+Remover seção 'Auditoria de CP e Distribuição Inicial'.
