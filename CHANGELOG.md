@@ -928,3 +928,12 @@ Reversão:
 - Impacto: prepara a camada global de sistema para campanhas de super-heróis.
 - Risco: baixo.
 - Reversão: remover o diretório caso a integração seja cancelada.
+
+## 2026-06-16
+- Importado sistema completo `champions_complete_6e`.
+- 22 arquivos adicionados em `systems/champions_complete_6e/`.
+- Sistema baseado em Champions Complete / HERO System 6E.
+- Inclui criação de personagens, powers, frameworks, combate, complicações, validação e operação do GM.
+- Impacto: adiciona suporte oficial a campanhas de super-heróis na Engine.
+- Risco: baixo.
+- Reversão: remover diretório systems/champions_complete_6e e entradas associadas.
