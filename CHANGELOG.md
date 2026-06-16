@@ -937,3 +937,9 @@ Reversão:
 - Impacto: adiciona suporte oficial a campanhas de super-heróis na Engine.
 - Risco: baixo.
 - Reversão: remover diretório systems/champions_complete_6e e entradas associadas.
+
+## 2026-06-16
+- Criada campanha `heroes_main`.
+- Sistema associado: champions_complete_6e.
+- Estrutura inicial da campanha criada com arquivos canônicos e CAMPAIGN_CONFIG.
+- Objetivo: ambiente de validação do sistema de super-heróis.
