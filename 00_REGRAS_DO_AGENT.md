@@ -206,3 +206,28 @@ Sempre que o personagem aprender, desbloquear, desenvolver ou estabilizar uma no
 4. Nao depender da memoria futura do chat para preservacao do progresso.
 
 Esta regra se aplica inclusive a tecnicas descobertas durante treinamento, meditacao, simulacao mental ou experimentacao de poderes.
+
+
+## Regra Operacional - Registro Automatico de Uso de Poderes
+
+Toda vez que Ryan utilizar um poder de uma forma nova, mesmo que de maneira simples, experimental ou leviana, o uso deve ser registrado.
+
+Nao e necessario esperar dominio completo ou desbloqueio formal.
+
+Procedimento:
+1. Registrar a nova aplicacao imediatamente.
+2. Associar a familia de poder correspondente.
+3. Atribuir nivel de maestria.
+
+Escala sugerida:
+- Descoberto
+- Experimental
+- Em Desenvolvimento
+- Consistente
+- Avancado
+- Dominado
+- Especializado
+
+A diferenca entre usos semelhantes passa a ser registrada principalmente pelo nivel de maestria e nao pela existencia ou ausencia do poder.
+
+Sempre que houver salvamento solicitado pelo jogador, o Agent deve consolidar automaticamente todas as novas aplicacoes observadas desde o ultimo registro.
