@@ -307,3 +307,18 @@ Efeitos narrativos desbloqueados:
 - Desenvolvimento inicial da Heranca da Centelha dos Construtores.
 
 Observacao: valores exatos da ficha HERO devem ser reconciliados futuramente com a ficha mecanica completa quando consolidada.
+
+
+## CORRECAO CANONICA DE RECONSTRUCAO DE PODERES
+
+Esta secao substitui as estimativas anteriores de 155/155 CP.
+
+Reconstrucao provisoria aprovada:
+- Manipulacao de Materia: 120 CP base + 45 CP de evolucao = aproximadamente 165 CP.
+- Manipulacao Espacial: aproximadamente 40 CP antes do arco recente + 45 CP de evolucao = aproximadamente 85 CP.
+- Heranca da Centelha dos Construtores: aproximadamente 20 CP.
+
+Observacao canonica:
+- A Manipulacao de Materia possui base documental na ficha inicial.
+- A Manipulacao Espacial foi adquirida e desenvolvida durante a campanha.
+- Estes valores substituem a estimativa anterior de 155 CP para ambos os poderes ate futura auditoria completa da ficha Nivel 2.
