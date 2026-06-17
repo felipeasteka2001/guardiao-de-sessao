@@ -268,3 +268,19 @@ Slots:
 
 ### Status
 Ficha inicial considerada completa para uso em campanha, pendente apenas de futura auditoria detalhada dos custos individuais de Powers quando todas as tabelas de Champions Complete 6e estiverem importadas para a base.
+
+
+## ATUALIZACAO CANONICA POS-INSTALACAO NORTE
+
+- Patrimonio aproximado atualizado para R$ 78.000.000.
+- Recompensa da Instalacao Norte recebida: R$ 50.000.000.
+- Contato repetido com a Entidade Aprisionada.
+- Reconhecido pela entidade como ligado aos Construtores.
+- Palavra-chave recebida: LIMIAR.
+- Estabelecida conexao direta com entidade ancestral.
+- Absorcao bem-sucedida de uma centelha energetica da entidade.
+- Sensibilidade espacial ampliada.
+- Afinidade com fenomenos relacionados aos Construtores ampliada.
+- Manipulacao espacial demonstrada em escala excepcional.
+- Captura publica do Rei Cinza realizada.
+- Ryan tornou-se figura publica conhecida em toda a cidade.
