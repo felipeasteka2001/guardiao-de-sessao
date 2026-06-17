@@ -284,3 +284,26 @@ Ficha inicial considerada completa para uso em campanha, pendente apenas de futu
 - Manipulacao espacial demonstrada em escala excepcional.
 - Captura publica do Rei Cinza realizada.
 - Ryan tornou-se figura publica conhecida em toda a cidade.
+
+
+## EVOLUCAO POR XP - POS ARCO INSTALACAO NORTE
+
+XP narrativo atribuido ao arco recente: 110 XP.
+
+Distribuicao aprovada:
+- Manipulacao Espacial: +45 CP
+- Manipulacao de Materia: +45 CP
+- Heranca da Centelha dos Construtores: +20 CP
+
+Valores narrativos atuais estimados:
+- Manipulacao Espacial: ~155 CP totais
+- Manipulacao de Materia: ~155 CP totais
+
+Efeitos narrativos desbloqueados:
+- Maior afinidade com estruturas do Limiar.
+- Maior estabilidade de portais.
+- Capacidade ampliada de engenharia dimensional.
+- Capacidade ampliada de criacao e transformacao de materia.
+- Desenvolvimento inicial da Heranca da Centelha dos Construtores.
+
+Observacao: valores exatos da ficha HERO devem ser reconciliados futuramente com a ficha mecanica completa quando consolidada.
