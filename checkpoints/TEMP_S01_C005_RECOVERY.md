@@ -28,3 +28,23 @@ Ryan roubou a cápsula Atlas-9 da Aegis Dynamics, neutralizou a perseguição in
 - Investigar Instalação Norte.
 - Entender a entidade subterrânea.
 - Conversar com Corvo.
+
+
+## Atualização Posterior
+- Ryan recebeu pagamento das missões Atlas-9 e Extração do Cientista.
+- Patrimônio aproximado atualizado para R$ 28.000.000.
+- Evolução para Nível 2.
+- Talento desbloqueado: Adaptação Forçada.
+- Portal curto utilizado para deslocamento ao norte da cidade.
+- Chegada à região da Instalação Norte.
+- Reconhecimento aéreo realizado.
+- Detectadas centenas de mentes e atividade subterrânea massiva.
+- Estrutura parece conter algo, não proteger algo.
+- Mentes apresentam sincronização anômala.
+- Presença colossal detectada em profundidade extrema.
+- A entidade percebeu a sondagem de Ryan, mas sem identificação confirmada.
+
+## Estado Atual
+- Ryan está acima da Instalação Norte.
+- Missão principal ativa: investigar a instalação.
+- Manipulação Espacial permanece latente e funcional.
