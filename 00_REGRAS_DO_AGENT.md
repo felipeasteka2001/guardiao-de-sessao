@@ -171,3 +171,26 @@ Arquivos prioritários:
 
 Objetivo:
 Garantir reconstrução confiável da campanha mesmo sem acesso ao histórico do chat.
+
+
+## Regra Operacional - Registro de Poderes Temporarios e Adaptados
+
+Sempre que o jogador pedir para salvar, consolidar ou atualizar a ficha/personagem apos uma cena, o Agent deve revisar os poderes temporarios, improvisados, adaptados ou manifestados emergencialmente durante a narrativa.
+
+Esses usos devem ser classificados e registrados como habilidades adquiridas, desbloqueadas, latentes ou em desenvolvimento dentro da familia de poder correspondente.
+
+Procedimento obrigatorio:
+1. Identificar todos os poderes temporarios/adaptados usados desde o ultimo salvamento.
+2. Associar cada uso a uma categoria de poder existente ou nova arvore coerente.
+3. Registrar como uma das seguintes categorias:
+   - habilidade adquirida;
+   - habilidade latente;
+   - tecnica improvisada;
+   - tecnica em desenvolvimento;
+   - poder desbloqueado;
+   - efeito derivado de transformacao/evento.
+4. Atualizar a ficha/personagem sem apagar conteudo anterior, salvo se houver autorizacao explicita para consolidacao ou substituicao.
+5. Atualizar o ledger numerico quando houver gasto, ganho ou realocacao de XP/CP.
+6. Registrar checkpoints ou logs quando o evento alterar canon, escala de poder ou estado narrativo.
+
+Essa regra existe para garantir que evolucoes emergentes, adaptacoes em combate e manifestacoes temporarias nao sejam perdidas entre sessoes.
