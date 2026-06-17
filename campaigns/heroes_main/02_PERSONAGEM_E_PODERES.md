@@ -339,3 +339,47 @@ Progresso Atual:
 - Armaduras complexas: em desenvolvimento.
 - Armas complexas: em desenvolvimento.
 - Mecanismos complexos: em desenvolvimento.
+
+
+## TECNICA DOMINADA - ARSENAL DIMENSIONAL
+
+Classificacao: Dominado.
+
+Familias:
+- Manipulacao Espacial
+- Manipulacao de Materia
+
+Capacidades:
+- Criacao de laminas psicomateriais estaveis.
+- Uso de microportais ofensivos.
+- Redirecionamento de ataques por multiplos angulos.
+- Integracao avancada entre Espaco e Materia.
+
+Observacao:
+- Durante o treinamento foram observadas runas semelhantes as dos Construtores dentro dos microportais.
+
+## TECNICA DOMINADA - CAMPO DE FORCA PSICOMATERIAL
+
+Classificacao: Dominado.
+
+Capacidades:
+- Escudo pessoal continuo.
+- Cupulas defensivas.
+- Barreiras direcionais.
+- Camadas defensivas adaptativas.
+- Integracao com telecinese e estruturas psicomateriais.
+
+## TECNICA - REFORCO BIOPSICOMATERIAL
+
+Classificacao Atual: Avancado.
+
+Capacidades:
+- Reforco permanente inicial de fibras musculares.
+- Reforco permanente inicial da estrutura ossea.
+- Melhor transmissao de forca corporal.
+- Recuperacao fisica aprimorada.
+- Maior tolerancia a esforco extremo.
+
+Estado:
+- Evolucao permanente iniciada.
+- Proximo salto depende de novos conhecimentos, recursos ou integracao com a Centelha dos Construtores.
