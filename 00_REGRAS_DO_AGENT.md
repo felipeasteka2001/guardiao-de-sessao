@@ -194,3 +194,15 @@ Procedimento obrigatorio:
 6. Registrar checkpoints ou logs quando o evento alterar canon, escala de poder ou estado narrativo.
 
 Essa regra existe para garantir que evolucoes emergentes, adaptacoes em combate e manifestacoes temporarias nao sejam perdidas entre sessoes.
+
+
+## Regra Operacional - Registro Obrigatorio de Novas Habilidades
+
+Sempre que o personagem aprender, desbloquear, desenvolver ou estabilizar uma nova habilidade, tecnica ou aplicacao de poder durante a narrativa:
+
+1. Registrar na ficha de poderes/personagem.
+2. Registrar no checkpoint temporario ativo da sessao.
+3. Registrar a classificacao apropriada (habilidade adquirida, tecnica em desenvolvimento, tecnica dominada, poder desbloqueado ou derivado).
+4. Nao depender da memoria futura do chat para preservacao do progresso.
+
+Esta regra se aplica inclusive a tecnicas descobertas durante treinamento, meditacao, simulacao mental ou experimentacao de poderes.
