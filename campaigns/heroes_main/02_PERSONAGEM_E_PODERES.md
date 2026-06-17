@@ -322,3 +322,20 @@ Observacao canonica:
 - A Manipulacao de Materia possui base documental na ficha inicial.
 - A Manipulacao Espacial foi adquirida e desenvolvida durante a campanha.
 - Estes valores substituem a estimativa anterior de 155 CP para ambos os poderes ate futura auditoria completa da ficha Nivel 2.
+
+
+## TECNICA ADQUIRIDA - CONSTRUCAO PSICOMATERIAL
+
+Classificacao: Tecnica em Desenvolvimento.
+
+Descricao:
+- Ryan iniciou treinamento sistematico de criacao de estruturas energeticas estaveis.
+- Primeira manifestacao bem-sucedida de lamina energetica psicomaterial estavel.
+- Capaz de criar ferramentas simples e formas geometricas estaveis a partir de energia psicomaterial.
+
+Progresso Atual:
+- Laminas simples: sucesso.
+- Ferramentas simples: sucesso.
+- Armaduras complexas: em desenvolvimento.
+- Armas complexas: em desenvolvimento.
+- Mecanismos complexos: em desenvolvimento.
