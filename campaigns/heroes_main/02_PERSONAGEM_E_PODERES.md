@@ -383,3 +383,31 @@ Capacidades:
 Estado:
 - Evolucao permanente iniciada.
 - Proximo salto depende de novos conhecimentos, recursos ou integracao com a Centelha dos Construtores.
+
+
+## EVOLUCAO - MANIPULACAO ENERGETICA PSICOMATERIAL
+
+Status Atual: Especializado.
+
+Melhorias Registradas:
+- Dominio de esferas energeticas estaveis.
+- Dominio de raios energeticos direcionados.
+- Compressao Energetica Psicomaterial: Dominado.
+- Controle avancado de densidade energetica.
+- Aumento significativo de eficiencia energetica.
+- Reducao de desperdicio durante geracao e manutencao.
+
+## TECNICA EM DESENVOLVIMENTO - NUCLEO ENERGETICO PSICOMATERIAL
+
+Classificacao: Avancado.
+
+Conceito:
+- Gerar grandes quantidades de energia.
+- Comprimir a energia mantendo estabilidade estrutural.
+- Preservar a maior quantidade possivel de energia total durante a compressao.
+- Concentrar potencia extrema em um volume reduzido.
+
+Estado Atual:
+- Compressao extrema dominada.
+- Estabilidade elevada.
+- Pesquisa continua para aumentar a quantidade total de energia suportada sem perda de controle.
